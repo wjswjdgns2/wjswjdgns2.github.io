@@ -1,0 +1,193 @@
+
+/* window 사이즈가 모바일 사이즈 일 경우*/
+@media all and (max-width:767px){
+    /**********/
+    /*  공통  */
+    /**********/
+    .page_title{
+        font-size:1.333em;
+        font-family: 'Aboreto', cursive;
+        border:solid;
+    }
+
+    /**********/
+    /*  Main  */
+    /**********/
+    .Introduce h1{
+        font-size:4vh;
+    }
+    .Introduce p{
+        font-size:2vh;
+    }
+    .Contact_summary dl{
+        margin-top:3vh;
+    }
+    .Contact_summary dt{
+        font-size:3vh;
+        font-family: 'Aboreto', cursive;
+        display: inline-block;
+        font-weight: 900;
+    }
+    .Contact_summary dd{
+        font-size:2.1vh;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 400;
+        padding-bottom:1vh;
+        padding-top:1vh;
+    }
+
+}
+
+
+/* 테블릿 가로, 테블릿 세로 (해상도 768px ~ 1023px)*/ 
+@media all and (min-width:768px) and (max-width:1023px) {
+    /**********/
+    /*  공통  */
+    /**********/
+    .page_title{
+        font-size:1.556rem;
+        font-family: 'Aboreto', cursive;
+    }
+
+    /**********/
+    /*  Main  */
+    /**********/
+    .Introduce h1{
+        font-size:4vh;
+    }
+    .Introduce p{
+        font-size:1.5vh;
+    }
+    .Contact_summary dl{
+        margin-top:3vh;
+    }
+    .Contact_summary dt{
+        font-size:2vh;
+        font-family: 'Aboreto', cursive;
+        display: inline-block;
+        font-weight: 900;
+    }
+    .Contact_summary dd{
+        font-size:1.4vh;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 400;
+        padding-bottom:1vh;
+        padding-top:1vh;
+    }
+}
+
+
+/* window 사이즈가 pc 사이즈 일 경우*/
+@media all and (min-width:1024px) {
+    /**********/
+    /*  공통  */
+    /**********/
+    .page_title{
+        font-size:2rem;
+        font-family: 'Aboreto', cursive;
+        margin-bottom:4rem;
+    }
+
+    /**********/
+    /*  Main  */
+    /**********/
+    .Introduce h1{
+        font-size:4rem;
+        margin-bottom: 1.2rem;
+    }
+    .Introduce p{
+        font-size:1.1rem;
+    }
+    .Contact_summary{
+        position:relative;
+        margin: 10vh auto 0;
+        text-align: right;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .Contact_summary dl{
+        position:relative;
+        text-align: left;
+        padding:2rem;
+    }
+    .Contact_summary dt{
+        font-size:1.5rem;
+        font-family: 'Aboreto', cursive;
+        font-weight: 900;
+    }
+    .Contact_summary dd{
+        font-size:1rem;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 400;
+        padding-bottom:1rem;
+        padding-top:1rem;
+    }
+
+    
+    /**********/
+    /*  About  */
+    /**********/
+    .about_display{
+        display: flex;
+        width: 100%;
+        margin-bottom:4rem;
+    }
+    .tag{
+        width: 30%;    
+    }
+    .tag span{
+        cursor: pointer;
+    }
+
+    .about_area{
+        width:70%;
+    }
+    .about_year{
+        font-size:0.889rem;
+    }
+    .about_title{
+        font-size:1.333rem;
+    }
+    .about_summery{
+        font-size:1rem;
+        width:80%;
+    }
+    .about_study_title{
+        margin-top:3rem;
+    }
+    .about_study_area{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 80%;
+        border-top:solid 0.1rem;
+        margin-top:1rem;
+        padding-top:2rem;
+        padding-bottom:2rem;
+    }
+    
+    .about_study_area dl{
+        
+        width:30%;
+        
+    }
+    .about_study_area dt{
+        font-size:1rem;
+        font-weight: 600;
+    }
+    .about_study_area dd{
+        font-size:0.889rem;
+        padding-top:0.4vw;
+    }
+    .about_list dt{
+        font-size:1rem;
+        font-weight: 600;
+        margin-top:2vw;
+    }
+    .about_list dd{
+        font-size:0.889rem;
+        padding-top:0.4vw;
+    }
+}
+
+

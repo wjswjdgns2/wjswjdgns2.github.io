@@ -1,0 +1,144 @@
+
+/**********/
+/*글꼴 추가*/
+/**********/
+
+/*
+    font-family: "Roboto", sans-serif;
+    font-family: 'Aboreto', cursive;
+    font-family: 'Noto Sans KR', sans-serif;
+*/
+
+
+/* Noto Sans 국문 'Noto Sans KR', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700;900&display=swap');
+
+/* Roboto 영문 font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap');
+
+/*font-family: 'Aboreto', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+/* 초기화 */
+html, body{
+    margin : 0;
+    padding : 0;
+    background-color:#1a1818;
+    color:#fff;
+    font-size:18px;
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 100%;
+    box-sizing: border-box;
+}
+a:link{
+    text-decoration: none;
+    color:#fff;
+}
+li{
+    list-style: none;
+}
+ul,li, dl ,dd, p, h1,h3{
+    margin: 0;
+    padding: 0;
+}
+
+/*영역 설정*/
+.container{
+    height: 100%;
+    
+}
+.titlepage{
+    position: relative;
+    height: 100%;
+}
+.text_area{
+    width:76vw;
+    margin:0 auto;
+}
+
+.container_center{
+    position:absolute;
+    left:0;
+    right:0;
+    top:50%;
+    transform:translate(0,-50%);
+}
+.contentspage{
+    position: relative;
+    height: 100%;
+}
+/* 디자인 포인트*/
+.edge{
+    width:1rem;
+    height: 0.1rem;
+    background-color:#f12535;
+    margin-top:1vh;
+    margin-bottom:1vh;
+    
+}
+
+.background_area{
+    margin:0;
+    position:absolute;
+    color:#fff;
+    width:100%;
+    opacity: 0.02;
+    font-weight: 900;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.background_effect{
+    background-image:url(/image/main_text02.png);
+        height: 260px;
+        width: 300%;
+        padding: 110px 20px 50px;
+        position:relative;
+        background-repeat: repeat-x;
+        background-position: 0 40%;
+        background-size: 1162px;
+        /* 애니메이션 이름 */
+        animation-duration: 16s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+        animation-name: imgslide;
+
+    }
+    /* 키프레임 이름 = 애니메이션 이름 */
+    @-webkit-keyframes imgslide {
+        from {
+        right:0;
+        }
+        to {
+        right:100%;
+        }
+    }
+.background{
+    position: absolute;
+    opacity: 0.4;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-image: url(/image/background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+/* font 공통 설정*/
+.strong{
+    color:#f12535;
+}
+
+/* 탭 효과 */
+.deactivate{
+    display: none;
+}
+.activate{
+    color:#f12535;
+}
