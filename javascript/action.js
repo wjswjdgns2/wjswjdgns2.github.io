@@ -24,7 +24,6 @@ window.onload = function(){
         const select_value = this.getAttribute('value') + '_value'
         document.querySelector("[value="+select_value+"]").classList.remove('deactivate')
   
-
     }
     
 }
