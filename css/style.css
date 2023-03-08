@@ -7,7 +7,7 @@
     .page_title{
         font-size:1.333em;
         font-family: 'Aboreto', cursive;
-        border:solid;
+        margin-bottom:1rem;
     }
 
     /**********/
@@ -36,6 +36,61 @@
         padding-top:1vh;
     }
 
+    
+    /**********/
+    /*  About  */
+    /**********/
+    
+    .about_display{
+        margin-bottom:4rem;
+    }
+
+    .about_area{
+        margin-top:2rem;
+    }
+    .about_year{
+        font-size:0.889rem;
+    }
+    .about_title{
+        font-size:1.333rem;
+    }
+
+    .about_summery{
+        font-size:1rem;
+    }
+    
+    .about_study_title{
+        margin-top:3rem;
+    }
+    
+    .about_study_area{
+        display: flex;
+        flex-wrap: wrap;
+        border-top:solid 0.1rem;
+        margin-top:1rem;
+        padding-bottom:2rem;
+    }
+    .about_study_area dl{
+        width:33.3333%;
+    }
+    .about_study_area dt{
+        font-size:1rem;
+        font-weight: 600;
+        margin-top:2vh;
+    }
+    .about_study_area dd{
+        font-size:0.889rem;
+        padding-top:0.4vh;
+    }
+    .about_list dt{
+        font-size:1rem;
+        font-weight: 600;
+        margin-top:2vh;
+    }
+    .about_list dd{
+        font-size:0.889rem;
+        padding-top:0.4vh;
+    }
 }
 
 
@@ -47,6 +102,7 @@
     .page_title{
         font-size:1.556rem;
         font-family: 'Aboreto', cursive;
+        margin-bottom:2rem;
     }
 
     /**********/
@@ -54,7 +110,7 @@
     /**********/
     .Introduce h1{
         font-size:4vh;
-    }
+    } 
     .Introduce p{
         font-size:1.5vh;
     }
@@ -85,10 +141,6 @@
     .tag{
         width: 30%;    
     }
-    .tag span{
-        cursor: pointer;
-    }
-
     .about_area{
         width:70%;
     }
@@ -187,7 +239,51 @@
         padding-top:1rem;
     }
 
+    /**********/
+    /*  Project  */
+    /**********/
+
+    /*프로젝트 서머리 영역 지정*/
+    .project_title{
+        text-align: center;
+    }
+    .project_summery{
+        display: flex;
+    }
+    .project_summery_img{
+        width:40%;
+    }
     
+    .project_summery_text{
+        width:55%;
+        margin-left:5%;
+    }
+
+    /*프로젝트 서머리 컨텐츠 css 지정*/
+    .project_summery_img img{
+        width:100%;
+    }
+
+    .project_summery_text_list{
+        margin-top:2rem;
+    }
+    .project_summery_text_skill{
+        margin-top:2rem;
+    }
+
+    /*프로젝트 스킬 영역*/
+    .skill_area{
+        display: flex;
+        width: 100%;
+    }
+    .skill_area div{
+        width:33.33333333%;
+    }
+    .skill_area div dt{
+        font-weight: 600;
+    }
+
+  
     /**********/
     /*  About  */
     /**********/
@@ -198,9 +294,6 @@
     }
     .tag{
         width: 30%;    
-    }
-    .tag span{
-        cursor: pointer;
     }
 
     .about_area{
